@@ -1,0 +1,22 @@
+{
+    "zumos": [
+      {
+        "nombre": "Zumo de Pomelo Natural",
+        "precio": 150,
+        "imagen": "https://5aldia.cl/wp-content/uploads/2018/04/pomelo-salud-propiedades-xl-848x477x80xX.jpg"
+      },
+      {
+        "nombre": "Zumo de Guayaba Natural",
+        "precio": 47,
+        "imagen": "https://buenprovecho.hn/wp-content/uploads/2020/08/Jugo_de_guayaba.jpg"
+      }
+      ,
+      {
+        "nombre": "Coco Natural",
+        "precio": 35,
+        "imagen": "https://static.vecteezy.com/system/resources/thumbnails/023/743/839/small/coconut-on-transparent-background-created-with-generative-ai-png.png"
+      }
+      
+    ]
+  }
+  

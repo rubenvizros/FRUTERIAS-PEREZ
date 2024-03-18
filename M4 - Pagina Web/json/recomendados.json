@@ -1,0 +1,23 @@
+{
+    "recomendados": [
+    
+      {
+        "nombre": "Coco Natural",
+        "precio": 35,
+        "imagen": "https://static.vecteezy.com/system/resources/thumbnails/023/743/839/small/coconut-on-transparent-background-created-with-generative-ai-png.png"
+      }
+      ,
+      {
+        "nombre": "Calabacín guinea-ecuatoriano",
+        "precio": 120,
+        "imagen": "https://disfrutaverdura.com/1817-large_default/calabacin-800g.jpg"
+      }
+      ,
+      {
+        "nombre": "Melon",
+        "precio": 50,
+        "imagen": "https://www.pngall.com/wp-content/uploads/11/Melon-No-Background.png"
+      }
+    ]
+  }
+  

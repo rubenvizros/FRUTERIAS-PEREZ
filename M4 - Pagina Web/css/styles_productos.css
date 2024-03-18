@@ -1,0 +1,286 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    min-width: fit-content;
+    margin-bottom: 5% !important;
+}
+
+
+/* Fondo */
+#back{
+    position: fixed;
+    background-image: url("../img/frutaFondo4k.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    top: -10px;
+    z-index: -1;
+    margin-bottom: 400px;
+}
+
+header {
+    height: 74px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav{
+    border-radius: 1px;
+}
+
+/*CUERPO PAGINA*/
+.img{
+	width: 99px;
+	max-height: 99px !important;
+	object-fit: cover;
+}
+
+h1{
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    background-color:#C08261;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 4px;
+    font-family: 'Impact';
+    font-weight: normal;
+}
+
+.div1 {
+    margin-bottom: 5%;
+    margin-left: 40px;
+}
+.div1 > div > div > img{
+    max-width: 120px;
+    max-height: 120px;
+}
+
+nav {
+    border-radius: 14px;
+    background-color: #ff444469;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+/* FRUTA */
+.Titulo{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border: 2px solid #000000; 
+    padding: 10px;
+    background: linear-gradient(to right, #fffc5a, #e7d805); 
+}
+
+.frutas{
+    text-align: center;
+    padding: 2%;
+    min-width: 20%;
+    max-width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 14px;
+    margin-top: 10px;
+} 
+
+
+.original-button {
+    align-items: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    transition: 0.3s;
+    box-shadow: 0px 6px 0px -2px rgb(74, 71, 211);
+    background: linear-gradient(to right, #efff0c, #fce40b); 
+    cursor: pointer
+
+}
+  
+.original-button:hover {
+    box-shadow: 0 0 #e2c0c0;
+    transform: translateY(5px);
+    cursor: pointer
+}
+
+
+/* VERDURAS */
+.Titulo2{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);
+    border: 2px solid #030303; 
+    padding: 10px;
+    background: linear-gradient(to right, #2bcc03, #a4f127); 
+
+}
+
+.verduras{
+    text-align: center;
+    padding: 2%;
+    min-width: 20%;
+    max-width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.original-button1{
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    transition: 0.3s;
+    box-shadow: 0px 6px 0px -2px rgb(62, 184, 6);
+    background: linear-gradient(to right, #2bcc03, #a4f127); 
+    cursor: pointer;
+}
+      
+.original-button1:hover {
+    box-shadow: 0 0 #e2c0c0;
+    transform: translateY(1px);
+    cursor: pointer
+}
+
+
+
+
+/* ZUMOS */
+.Titulo3{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border: 2px solid #333; 
+    padding: 10px;
+    background: linear-gradient(to left, #ff7300, #fac800);
+}
+
+.zumos{
+    text-align: center;
+    min-width: 20%;
+    border-radius: 14px;
+    margin-top: 10px;
+    padding: 2%;
+    min-width: 20%;
+    max-width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.original-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    transition: 0.3s;
+    box-shadow: 0px 6px 0px -2px rgb(230, 5, 181);
+    background: linear-gradient(to left, #ff7300, #fac800); 
+    cursor: pointer
+}
+
+.original-button2:hover {
+    box-shadow: 0 0 #e2c0c0;
+    transform: translateY(1px);
+    cursor: pointer
+}
+
+
+/* Contenedor lista (carrito) */
+#contenedorLista{
+    top: 10%;
+    left: 83%;
+    width: 15%;
+    min-height: fit-content;
+    max-width: 340px;
+    background-color: #f5f5f5cc;
+    justify-content: center;
+    border-color: #000000;
+    border-width: 5%;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+button{
+    border-color: #ffffff;
+    cursor: pointer
+}
+
+#emptyCart{
+    font-family:Garamond ;
+    font-size: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(235, 109, 51, 0.507);
+}
+
+#payCart{
+    font-family:Garamond ;
+    font-size: 10%;
+    font-size: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    background-color: #2bcc03b6;
+}
+
+#controlList{
+    margin-top: 10px;
+}
+
+#controlList > button {
+    display: inline-block;
+}
+
+.imgCarrito{
+    width: 30px;
+	height: 30px;
+	object-fit: cover;
+    border-color: #fff;
+}
+
+/* FOOTER */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #F2ECBE;
+    display: flex;
+    align-items: center;
+}
+
+#imgRect{
+    width: 100px;
+    height: 100px;
+}
+#zumoTitCard{
+    height: 90px;
+}

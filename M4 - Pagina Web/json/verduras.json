@@ -1,0 +1,39 @@
+{
+  "verduras": [
+    {
+      "nombre": "Espinacas",
+      "precio": 15,
+      "imagen": "https://s2.ppllstatics.com/diariovasco/www/multimedia/2023/10/16/ESPINACAS-Roj0mU7iDRMrN9TgGRUXv1K-1200x840@Diario%20Vasco.jpg"
+    },
+    {
+      "nombre": "Brócoli",
+      "precio":  12,
+      "imagen": "https://masbrocoli.com/wp-content/uploads/2023/11/broccoli-1239149_1920.jpeg"
+    }
+    ,
+    {
+      "nombre": "Calabacín",
+      "precio": 120,
+      "imagen": "https://disfrutaverdura.com/1817-large_default/calabacin-800g.jpg"
+    }
+    ,
+    {
+      "nombre": "Zanahoria",
+      "precio": 25,
+      "imagen": "https://static.vecteezy.com/system/resources/thumbnails/027/216/338/small/red-carrot-red-carrot-transparent-background-ai-generated-free-png.png"
+    }
+    ,
+    {
+      "nombre": "Tomates",
+      "precio": 65,
+      "imagen": "https://www.frutadelasarga.com/server/Portal_0008706/img/categories/Tomate.jpg"
+    },
+    {
+      "nombre": "Pimientos",
+      "precio": 45,
+      "imagen": "https://hortamar.es/wp-content/uploads/pimiento-california-hortamar-1.jpg"
+    }
+  ]
+}
+
+  
