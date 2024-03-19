@@ -33,7 +33,7 @@
 
 - Librerias ´Wire.h´ y ´LiquidCrystal_I2C.h´ 
 
-####GRUPO DE FRUTERIAS PEREZ COMPUESTO POR: 
+#### GRUPO DE FRUTERIAS PEREZ COMPUESTO POR: 
 	- LLuc Farre
 	- Adrian Morales
 	- Amine Mernich
