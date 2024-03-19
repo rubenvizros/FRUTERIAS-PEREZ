@@ -4,8 +4,8 @@
 
 - **/M3 - Programación**: Contiene la aplicación desarrollada en Java junto con el código fuente y el archivo ejecutable (.jar).
 - **/M2-M10 - Base de datos**: Aquí se encuentran los archivos .sql necesarios para recrear la base de datos utilizada por la aplicación.
-- **/M4 - Página web**: Aqui se guarda la pagina web. Visitable desde: "https://rubenvizros.github.io/FRUTERIAS-PEREZ/"
-- **/M5 - Arduino**: Contiene el código fuente relacionado con la integración y control de dispositivos Arduino.
+- **/M4 - Página web**: Aquí se guarda la página web. Puede ser visitada desde [este enlace](https://rubenvizros.github.io/FRUTERIAS-PEREZ/).
+- **/M5 - Arduino**: Contiene el código fuente relacionado con la integración y control del Arduino.
 
 ## Instalación
 
@@ -19,10 +19,10 @@
 
 #### Requerimientos para ejecutar:
 
-- Un servidor mysql con las tablas guardadas en /M2-M10 - Base de datos y con la ip 
+- Un servidor MySQL con las tablas guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90
 
 ### M4 - Página web:
 
 #### Requerimientos:
 
-- XAMPP: Con mysql importado de las tablas anteriores y la carpeta con las paginas web en el root del servidor apache. Luego acceder por <ip-server>/html/index.html
+- XAMPP: Con MySQL importado de las tablas anteriores y la carpeta con las páginas web en el root del servidor Apache. Luego acceder por `<ip-server>/html/index.html`
