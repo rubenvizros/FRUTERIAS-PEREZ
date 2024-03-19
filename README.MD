@@ -19,10 +19,22 @@
 
 #### Requerimientos para ejecutar:
 
-- Un servidor MySQL con las tablas guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90
+- Un servidor MySQL con las tablas que estan guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90
 
 ### M4 - Página web:
 
 #### Requerimientos:
 
 - XAMPP: Con MySQL importado de las tablas anteriores y la carpeta con las páginas web en el root del servidor Apache. Luego acceder por `<ip-server>/html/index.html`
+
+### M5 - Arduino:
+
+#### Requerimientos para compilar:
+
+- Librerias ´Wire.h´ y ´LiquidCrystal_I2C.h´ 
+
+####GRUPO DE FRUTERIAS PEREZ COMPUESTO POR: 
+	- LLuc Farre
+	- Adrian Morales
+	- Amine Mernich
+	- Ruben Vizcaino
