@@ -1,0 +1,88 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Fjalla One', sans-serif; /* Fuente y tipo de letra utilizados para el cuerpo de la página */
+    background-color: #C08261; /* Color de fondo del cuerpo de la página */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    min-width: fit-content; /* Establece el ancho mínimo basado en el contenido */
+    margin-bottom: 5% !important; /* Establece un margen inferior del 5% con prioridad importante */
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex; /* Usa un modelo de caja flexible para el encabezado */
+    height: 74px; /* Altura del encabezado */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    padding: 10px; /* Añade relleno alrededor del contenido del encabezado */
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    font-weight: 600; /* Peso de la fuente de los enlaces de navegación */
+    padding-right: 10px; /* Añade espacio a la derecha de los enlaces de navegación */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    z-index: 1; /* Coloca la barra de navegación en una capa superior */
+}
+
+/* Estilos para los títulos */
+h1 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra de texto para el título */
+    border: 2px solid #333; /* Borde sólido del título */
+    padding: 10px; /* Añade relleno alrededor del título */
+    background-color: #e04516; /* Color de fondo del título */
+    max-width: fit-content; /* Establece el ancho máximo basado en el contenido del título */
+    margin-top: 2% !important; /* Establece un margen superior del 2% con prioridad importante */
+}
+
+/* Estilos para las filas */
+.row {
+    background-color: white; /* Color de fondo de las filas */
+    margin-bottom: 1%; /* Margen inferior entre filas */
+    padding: 2%; /* Añade relleno alrededor del contenido de las filas */
+    border-radius: 14px; /* Borde redondeado de las filas */
+}
+
+/* Estilos para las imágenes */
+img {
+    border-radius: 4px; /* Borde redondeado de las imágenes */
+}
+
+/* Estilos para el fondo */
+#back {
+    position: fixed; /* Fija la posición del fondo en la ventana del navegador */
+    background-image: url("../img/frutaFondo4k.jpeg"); /* URL de la imagen de fondo */
+    background-repeat: no-repeat; /* No se repite la imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta para cubrir el contenedor completamente */
+    width: 100%; /* Ancho completo del fondo */
+    height: 100%; /* Altura completa del fondo */
+    top: -10px; /* Posicionamiento superior del fondo */
+    z-index: -1; /* Coloca el fondo detrás de otros elementos */
+    margin-bottom: 400px; /* Margen inferior del fondo */
+}
+
+/* Estilos para el pie de página */
+#footer {
+    background: #F2ECBE; /* Color de fondo del pie de página */
+}
+
+/* Estilos para los contenedores */
+.div1 {
+    display: flex; /* Usa un modelo de caja flexible para los contenedores */
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan a la siguiente línea si no caben */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+}
+
+/* Estilos para el botón de inicio de sesión */
+#botonLogin {
+    display: flex; /* Usa un modelo de caja flexible para el botón de inicio de sesión */
+    justify-content: center; /* Centra horizontalmente el contenido del botón de inicio de sesión */
+    line-height: 1; /* Altura de línea del botón de inicio de sesión */
+    border-radius: 10px; /* Borde redondeado del botón de inicio de sesión */
+    font-weight: bold; /* Peso de la fuente en negrita para el texto del botón de inicio de sesión */
+    border: 1px solid #000000; /* Borde sólido del botón de inicio de sesión */
+    background: linear-gradient(to left, rgb(100, 231, 236), #ffffff); /* Degradado lineal como fondo del botón de inicio de sesión */
+}

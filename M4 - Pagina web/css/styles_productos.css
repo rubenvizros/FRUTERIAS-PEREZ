@@ -1,0 +1,308 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: 'Fjalla One', sans-serif; /* Fuente y tipo de letra para el cuerpo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    min-width: fit-content; /* Establece el ancho mínimo basado en el contenido */
+    margin-bottom: 5% !important; /* Establece un margen inferior del 5% con prioridad importante */
+}
+
+/* Fondo de la página */
+#back {
+    position: fixed; /* Fija la posición del fondo */
+    background-image: url("../img/frutaFondo4k.jpeg"); /* Imagen de fondo */
+    background-repeat: no-repeat; /* No se repite la imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta para cubrir el contenedor completamente */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    top: -10px; /* Posicionamiento superior */
+    z-index: -1; /* Coloca el fondo detrás de otros elementos */
+    margin-bottom: 400px; /* Margen inferior */
+}
+
+/* Estilos para el encabezado */
+header {
+    height: 74px; /* Altura del encabezado */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    padding: 10px; /* Relleno alrededor del contenido */
+    margin-bottom: 50px; /* Margen inferior */
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    font-weight: 600; /* Peso de la fuente */
+    padding-right: 10px; /* Espacio a la derecha */
+}
+
+nav {
+    z-index: 1; /* Coloca la barra de navegación en una capa superior */
+}
+
+/* Estilos para los títulos */
+h1 {
+    padding: 10px; /* Relleno alrededor del título */
+    color: whitesmoke; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    margin-bottom: 2%; /* Margen inferior */
+    background-color: #C08261; /* Color de fondo */
+    margin-left: 35%; /* Margen izquierdo */
+    margin-right: 35%; /* Margen derecho */
+    border-radius: 4px; /* Borde redondeado */
+    font-family: 'Impact'; /* Fuente */
+    font-weight: normal; /* Peso de la fuente */
+}
+
+/* Estilos para las imágenes */
+.img {
+    width: 99px; /* Ancho de la imagen */
+    max-height: 99px !important; /* Altura máxima de la imagen */
+    object-fit: cover; /* Ajuste de la imagen */
+}
+
+/* Estilos para los contenedores de filas */
+.div1 {
+    margin-bottom: 5%; /* Margen inferior */
+    margin-left: 40px; /* Margen izquierdo */
+}
+
+.div1 > div > div > img {
+    max-width: 120px; /* Ancho máximo de la imagen */
+    max-height: 120px; /* Altura máxima de la imagen */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    border-radius: 14px; /* Borde redondeado */
+    background-color: #ff444469; /* Color de fondo */
+}
+
+/* Estilos para los botones originales */
+.original-button {
+    align-items: center; /* Alinea los elementos verticalmente */
+    line-height: 1; /* Altura de línea */
+    text-decoration: none; /* Sin decoración de texto */
+    color: #000000; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    border-radius: 20px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+    border: 2px solid #000000; /* Borde sólido */
+    transition: 0.3s; /* Transición */
+    box-shadow: 0px 6px 0px -2px rgb(74, 71, 211); /* Sombra */
+    background: linear-gradient(to right, #efff0c, #fce40b); /* Degradado lineal como fondo */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos de hover para los botones originales */
+.original-button:hover {
+    box-shadow: 0 0 #e2c0c0; /* Cambia la sombra al hacer hover */
+    transform: translateY(5px); /* Transformación en el eje Y */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos para el título "Fruta" */
+.Titulo {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra de texto */
+    border: 2px solid #000000; /* Borde sólido */
+    padding: 10px; /* Relleno alrededor del título */
+    background: linear-gradient(to right, #fffc5a, #e7d805); /* Degradado lineal como fondo */
+}
+
+/* Estilos para las secciones de frutas */
+.frutas {
+    text-align: center; /* Alineación del texto */
+    padding: 2%; /* Relleno alrededor del contenido */
+    min-width: 20%; /* Ancho mínimo */
+    max-width: 250px; /* Ancho máximo */
+    margin-left: 50px; /* Margen izquierdo */
+    margin-right: 50px; /* Margen derecho */
+    border-radius: 14px; /* Borde redondeado */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para el título "Verduras" */
+.Titulo2 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 1); /* Sombra de texto */
+    border: 2px solid #030303; /* Borde sólido */
+    padding: 10px; /* Relleno alrededor del título */
+    background: linear-gradient(to right, #2bcc03, #a4f127); /* Degradado lineal como fondo */
+}
+
+/* Estilos para las secciones de verduras */
+.verduras {
+    text-align: center; /* Alineación del texto */
+    padding: 2%; /* Relleno alrededor del contenido */
+    min-width: 20%; /* Ancho mínimo */
+    max-width: 250px; /* Ancho máximo */
+    margin-left: 50px; /* Margen izquierdo */
+    margin-right: 50px; /* Margen derecho */
+    border-radius: 14px; /* Borde redondeado */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para el título "Zumos" */
+.Titulo3 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra de texto */
+    border: 2px solid #333; /* Borde sólido */
+    padding: 10px; /* Relleno alrededor del título */
+    background: linear-gradient(to left, #ff7300, #fac800); /* Degradado lineal como fondo */
+}
+
+/* Estilos para las secciones de zumos */
+.zumos {
+    text-align: center; /* Alineación del texto */
+    min-width: 20%; /* Ancho mínimo */
+    border-radius: 14px; /* Borde redondeado */
+    margin-top: 10px; /* Margen superior */
+    padding: 2%; /* Relleno alrededor del contenido */
+    min-width: 20%; /* Ancho mínimo */
+    max-width: 250px; /* Ancho máximo */
+    margin-left: 50px; /* Margen izquierdo */
+    margin-right: 50px; /* Margen derecho */
+    border-radius: 14px; /* Borde redondeado */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para los botones originales 1 */
+.original-button1 {
+    align-items: center; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    line-height: 1; /* Altura de línea */
+    text-decoration: none; /* Sin decoración de texto */
+    color: #000000; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    border-radius: 20px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+    border: 2px solid #000000; /* Borde sólido */
+    transition: 0.3s; /* Transición */
+    box-shadow: 0px 6px 0px -2px rgb(62, 184, 6); /* Sombra */
+    background: linear-gradient(to right, #2bcc03, #a4f127); /* Degradado lineal como fondo */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos de hover para los botones originales 1 */
+.original-button1:hover {
+    box-shadow: 0 0 #e2c0c0; /* Cambia la sombra al hacer hover */
+    transform: translateY(1px); /* Transformación en el eje Y */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos para los botones originales 2 */
+.original-button2 {
+    display: flex; /* Usa un modelo de caja flexible */
+    align-items: center; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    line-height: 1; /* Altura de línea */
+    text-decoration: none; /* Sin decoración de texto */
+    color: #000000; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    border-radius: 20px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+    border: 2px solid #000000; /* Borde sólido */
+    transition: 0.3s; /* Transición */
+    box-shadow: 0px 6px 0px -2px rgb(230, 5, 181); /* Sombra */
+    background: linear-gradient(to left, #ff7300, #fac800); /* Degradado lineal como fondo */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos de hover para los botones originales 2 */
+.original-button2:hover {
+    box-shadow: 0 0 #e2c0c0; /* Cambia la sombra al hacer hover */
+    transform: translateY(1px); /* Transformación en el eje Y */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos para el contenedor de la lista (carrito) */
+#contenedorLista {
+    top: 10%; /* Posicionamiento superior */
+    left: 83%; /* Posicionamiento izquierdo */
+    width: 15%; /* Ancho */
+    min-height: fit-content; /* Altura mínima */
+    max-width: 340px; /* Ancho máximo */
+    background-color: #f5f5f5cc; /* Color de fondo */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    border-color: #000000; /* Color del borde */
+    border-width: 5%; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    padding: 10px; /* Relleno alrededor del contenido */
+    border-radius: 15px; /* Borde redondeado */
+    border-width: 2px; /* Ancho del borde */
+}
+
+/* Estilos para los botones */
+button {
+    border-color: #ffffff; /* Color del borde */
+    cursor: pointer; /* Cursor */
+}
+
+/* Estilos para el botón "emptyCart" */
+#emptyCart {
+    font-family: Garamond; /* Fuente */
+    font-size: 100%; /* Tamaño de fuente */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor */
+    background-color: rgba(235, 109, 51, 0.507); /* Color de fondo */
+}
+
+/* Estilos para el botón "payCart" */
+#payCart {
+    font-family: Garamond; /* Fuente */
+    font-size: 10%; /* Tamaño de fuente */
+    font-size: 100%; /* Tamaño de fuente */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor */
+    display: flex; /* Usa un modelo de caja flexible */
+    background-color: #2bcc03b6; /* Color de fondo */
+}
+
+/* Estilos para el contenedor de control de lista */
+#controlList {
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para los botones dentro del control de lista */
+#controlList > button {
+    display: inline-block; /* Muestra como bloque en línea */
+}
+
+/* Estilos para la imagen del carrito */
+.imgCarrito {
+    width: 30px; /* Ancho de la imagen */
+    height: 30px; /* Altura de la imagen */
+    object-fit: cover; /* Ajuste de la imagen */
+    border-color: #fff; /* Color del borde */
+}
+
+/* Estilos para el footer */
+#footer {
+    position: fixed; /* Fija la posición del pie de página */
+    bottom: 0; /* Posicionamiento inferior */
+    width: 100%; /* Ancho completo */
+    height: 40px; /* Altura */
+    background: #F2ECBE; /* Color de fondo */
+    display: flex; /* Usa un modelo de caja flexible */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+/* Estilos para la imagen rectangular */
+#imgRect {
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+}
+
+/* Estilos para el título de la tarjeta del zumo */
+#zumoTitCard {
+    height: 90px; /* Altura */
+}
+
+/* Estilos para el botón "botonLogin" */
+#botonLogin {
+    display: flex; /* Usa un modelo de caja flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    line-height: 1; /* Altura de línea */
+    border-radius: 10px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+    border: 1px solid #000000; /* Borde sólido */
+    background: linear-gradient(to left, rgb(100, 231, 236), #ffffff); /* Degradado lineal como fondo */
+    margin-right: 10px; /* Margen derecho */
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruterias Pérez</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles_productos.css">
+    <link rel="shortcut icon" href="../img/logos/LogoSinLetras.png">
+</head>
+
+<body>
+    <!--ENCABEZADO-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="../html/index.html" class="navbar-brand">
+                <img class="image" src="../img/logos/LogoSinLetras.png" alt="logo" height="30">
+                Fruterias Pérez
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="localizacion.html">Localización y Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <button id="botonLogin" onclick="login.html">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </button>
+                </ul>
+            </div>
+
+            <button onclick="verCarrito()">
+                <img class="imgCarrito" id="carroVacio" src="../img/carrito2.png">
+                <img class="imgCarrito" id="carroLleno" style="display: none;" src="../img/carritoFull.png">
+            </button>
+        </nav>
+
+        <div class="sticky-top z-3" id="contenedorLista" style="display: none;">
+            <div class="card" id="list"></div>
+    
+            <div id="controlList">
+                <button class="align-self-start btn btn-primary" onclick="emptyCart()" id="emptyCart">Vaciar Carrito</button>
+                <button class="align-self-end btn btn-success" onclick="location.href='carrito.html'" id="payCart"  disabled="true">Pagar</button>
+            </div>
+            <h6 id="total">Carro Vacio</h6>
+        </div> <!-- DIV LISTA COMPRA -->
+    
+        <!--FIN MENU DE LA PAGINA-->
+        <div id="back"></div>
+    </header>
+
+  
+
+
+    <div class="container fondo mx-auto" id="container">
+        <h1 class="Titulo"> FRUTAS</h1>
+        <div class="row div1" id="infoFrutas"></div>
+
+        <h1 class="Titulo2">VERDURAS</h1>
+        <div class="row div1" id="infoVerduras"></div>
+
+        <h1 class="Titulo3">ZUMOS</h1>
+        <div class="row div1" id="infoZumos"></div>
+    </div>
+
+    <!-- Agregar Bootstrap JS al final del body -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../app.js"></script>
+
+    <footer id="footer" class="fixed-bottom">
+        <div class="container">
+            <p id="audText" ><strong>Fruterias Pérez | Copyright © 2024</strong></p>
+            <audio id="audio" src="../html/BELDT.mp3" style="display: none;"></audio>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
