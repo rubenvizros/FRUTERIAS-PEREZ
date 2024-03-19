@@ -31,7 +31,7 @@
 
 #### Requerimientos para compilar:
 
-- Librerias ´Wire.h´ y ´LiquidCrystal_I2C.h´ 
+- Librerias `Wire.h` y `LiquidCrystal_I2C.h` 
 
 #### GRUPO DE FRUTERIAS PEREZ COMPUESTO POR: 
 	- LLuc Farre
