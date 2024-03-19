@@ -1,0 +1,49 @@
+#formContainer{
+    margin: 0%; /* Establece el margen del contenedor del formulario a 0% */
+}
+
+#tarjeta{
+    background-image: url("../img/bg-tarjeta.png"); /* Establece una imagen de fondo para el contenedor de la tarjeta */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Escala la imagen de fondo para cubrir completamente el contenedor */
+    width: 389px; /* Establece el ancho del contenedor de la tarjeta */
+    height: 240px; /* Establece la altura del contenedor de la tarjeta */
+    border-radius: 15px; /* Establece el radio de borde del contenedor de la tarjeta */
+    margin-bottom: 20px; /* Establece el margen inferior del contenedor de la tarjeta */
+    margin-top: 20px; /* Establece el margen superior del contenedor de la tarjeta */
+}
+
+#numerosTarjeta{
+    margin-top: 40%; /* Establece el margen superior del elemento de números de tarjeta */
+    margin-left: 10%; /* Establece el margen izquierdo del elemento de números de tarjeta */
+    color: aqua; /* Establece el color del texto de los números de tarjeta */
+}
+
+#nombreTitular{
+    color: aqua; /* Establece el color del texto del nombre del titular */
+}
+
+#tarjetaExpiraccion{
+    margin-left: 10%; /* Establece el margen izquierdo del elemento de fecha de expiración */
+    color: aqua; /* Establece el color del texto de la fecha de expiración */
+}
+
+#formularioTarjeta{
+    width: 360px; /* Establece el ancho del formulario de tarjeta */
+}
+
+#btnSubmint{
+    margin-top: 15px; /* Establece el margen superior del botón de envío */
+    color: #ffffff; /* Establece el color del texto del botón de envío */
+    background-color: #2d63c8; /* Establece el color de fondo del botón de envío */
+    font-size: 19px; /* Establece el tamaño de fuente del botón de envío */
+    border: 1px solid #2d63c8; /* Establece un borde sólido para el botón de envío */
+    border-radius: 10px; /* Establece el radio de borde del botón de envío */
+    padding: 15px 50px; /* Establece el relleno del botón de envío */
+    cursor: pointer; /* Establece el cursor del mouse al pasar sobre el botón de envío */
+}
+
+#btnSubmint:hover {
+    color: #2d63c8; /* Cambia el color del texto del botón de envío al pasar el mouse sobre él */
+    background-color: #ffffff; /* Cambia el color de fondo del botón de envío al pasar el mouse sobre él */
+}

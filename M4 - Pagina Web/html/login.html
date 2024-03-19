@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Configura la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala inicial y el ancho de la ventana -->
+    <link rel="stylesheet" type="text/css" href="../css/styles_login.css"> <!-- Enlaza una hoja de estilos CSS externa -->
+    <link rel="shortcut icon" href="../img/logos/LogoSinLetras.png"> <!-- Enlaza un ícono de favicon -->
+    <title>Iniciar sesión</title> <!-- Título de la página -->
+</head>
+<body>
+    <div class="form-container"> <!-- Contenedor principal del formulario -->
+        <h2>Log in</h2> <!-- Encabezado del formulario -->
+        <form action="login.php" method="post"> <!-- Formulario de inicio de sesión -->
+            <!-- Campos de entrada de datos para correo electrónico y contraseña -->
+            <!-- Cada campo tiene su etiqueta, tipo de entrada y clases de estilo -->
+            <!-- El campo de contraseña se muestra junto con un botón para mostrar/ocultar la contraseña -->
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" class="form-input" required>
+                    <input type="checkbox" id="show_password" class="toggle-password" onclick="togglePasswordVisibility('password')"> 
+                    <label for="show_password" class="show-password-label">Mostrar</label>
+                </div>
+            </div>
+            <button type="submit" name="submit" class="form-button">Enviar</button> <!-- Botón de envío del formulario -->
+            <p>¿No tienes cuenta? <a  href="signup.html">Crea una ahora</a>.</p> <!-- Enlace para crear una nueva cuenta -->
+        </form>
+        <!-- Script JavaScript para funcionalidad de mostrar/ocultar contraseña -->
+        <script>
+            // Función para mostrar/ocultar la contraseña
+            function togglePasswordVisibility(inputId) {
+                var input = document.getElementById(inputId);
+                var checkbox = document.getElementById("show_" + inputId);
+        
+                if (checkbox.checked) {
+                    input.type = "text";
+                } else {
+                    input.type = "password";
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>

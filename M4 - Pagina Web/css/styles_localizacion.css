@@ -1,0 +1,95 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: 'Fjalla One', sans-serif; /* Fuente principal del cuerpo de la página */
+    background-color: #C08261; /* Color de fondo del cuerpo de la página */
+    margin: 0; /* Elimina los márgenes por defecto del cuerpo */
+    min-width: fit-content; /* Establece la anchura mínima basada en el contenido */
+    margin-bottom: 5% !important; /* Establece un margen inferior del 5% con prioridad importante */
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex; /* Usa un modelo de caja flexible para el encabezado */
+    height: 74px; /* Altura del encabezado */
+    background-color: #f5f5f569; /* Color de fondo del encabezado */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    padding: 10px; /* Añade relleno alrededor del contenido del encabezado */
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    font-weight: 600; /* Peso de la fuente de los enlaces de navegación */
+    padding-right: 10px; /* Añade espacio a la derecha de los enlaces de navegación */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    z-index: 1; /* Coloca la barra de navegación en una capa superior */
+}
+
+/* Estilos para los títulos */
+h1 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra de texto para el título */
+    border: 2px solid #333; /* Borde sólido del título */
+    padding: 10px; /* Añade relleno alrededor del título */
+    background-color: #C08261; /* Color de fondo del título */
+    max-width: fit-content; /* Establece el ancho máximo basado en el contenido del título */
+    margin-top: 2% !important; /* Establece un margen superior del 2% con prioridad importante */
+}
+
+/* Estilos para el fondo de la página */
+#back {
+    position: fixed; /* Fija la posición del fondo en la ventana del navegador */
+    background-image: url("../img/frutaFondo4k.jpeg"); /* URL de la imagen de fondo */
+    background-repeat: no-repeat; /* No se repite la imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta para cubrir el contenedor completamente */
+    width: 100%; /* Ancho completo del fondo */
+    height: 100%; /* Altura completa del fondo */
+    top: -10px; /* Posicionamiento superior del fondo */
+    z-index: -1; /* Coloca el fondo detrás de otros elementos */
+    margin-bottom: 400px; /* Margen inferior del fondo */
+}
+
+/* Estilos para el pie de página */
+#footer {
+    position: fixed; /* Posición fija */
+    bottom: 0; /* Posicionamiento en la parte inferior */
+    width: 100%; /* Ancho completo */
+    height: 40px; /* Altura */
+    background: #F2ECBE; /* Color de fondo */
+    display: flex; /* Usa un modelo de caja flexible */
+    align-items: center; /* Alineación vertical */
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos */
+    flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan a la siguiente línea si no caben */
+}
+
+#footer>p {
+    margin-left: -85%; /* Margen izquierdo */
+}
+
+/* Estilos para las cajas de información */
+.info {
+    background-color: aliceblue; /* Color de fondo de las cajas de información */
+    padding: 1rem; /* Añade relleno alrededor del contenido de las cajas de información */
+    text-align: center; /* Alinea el texto al centro dentro de las cajas de información */
+    border-radius: 12px; /* Bordes redondeados de las cajas de información */
+    min-width: fit-content; /* Establece el ancho mínimo basado en el contenido de las cajas de información */
+    margin-left: 3%; /* Margen izquierdo de las cajas de información */
+}
+
+/* Estilos para las filas */
+.row {
+    display: block; /* Muestra las filas como bloques */
+}
+
+/* Estilos para el botón de inicio de sesión */
+#botonLogin {
+    display: flex; /* Usa un modelo de caja flexible para el botón de inicio de sesión */
+    justify-content: center; /* Centra horizontalmente el contenido del botón de inicio de sesión */
+    line-height: 1; /* Altura de línea del botón de inicio de sesión */
+    border-radius: 10px; /* Bordes redondeados del botón de inicio de sesión */
+    font-weight: bold; /* Peso de la fuente en negrita para el texto del botón de inicio de sesión */
+    border: 1px solid #000000; /* Borde sólido del botón de inicio de sesión */
+    background: linear-gradient(to left, rgb(100, 231, 236), #ffffff); /* Degradado lineal como fondo del botón de inicio de sesión */
+}

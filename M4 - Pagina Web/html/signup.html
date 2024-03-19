@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles_signup.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Sign up</h2>
+        <form action="welcome.php" method="post">
+            <div class="form-group">
+                <label for="first_name" class="form-label">Nombre:</label>
+                <input type="text" id="first_name" name="fname" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name" class="form-label">Apellidos: (Opcional)</label>
+                <input type="text" id="last_name" name="lname" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_number" class="form-label">Phone Number: (Opcional)</label>
+                <input type="number" id="phone_number" name="pnumber" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="country" class="form-label">Country: (Opcional)</label>
+                <select id="country" name="country">
+                    <option value="spain">España</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="italy">Italia</option>
+                    <option value="france">Francia</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Address: (Opcional)</label>
+                <input type="text" id="address" name="address" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Password:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" class="form-input" required>
+                    <input type="checkbox" id="show_password" class="toggle-password" onclick="togglePasswordVisibility('password')"> 
+                    <label for="show_password" class="show-password-label">Mostrar</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="repeat_password" class="form-label">Repeat Password:</label>
+                <div class="password-container">
+                    <input type="password" id="repeat_password" name="repeat_password" class="form-input" required>
+                    <input type="checkbox" id="show_repeat_password" class="toggle-password" onclick="togglePasswordVisibility('repeat_password')"> 
+                    <label for="show_repeat_password" class="show-repeat-password-label">Mostrar</label>
+                </div>
+            </div>
+                        
+            <div class="form-group">
+                <label for="promotional_offers" class="form-label">Promotional Offers</label>
+                <input type="checkbox" id="prom_off" name="promo_off" class="form-input" value="1">
+            </div>
+            <button type="submit" name="submit" class="form-button" onclick="return validatePassword()">Enviar</button>
+        </form>
+        <script>
+            // Función para validar que las contraseñas coincidan
+            function validatePassword() {
+                var password = document.getElementById("password").value;
+                var repeatPassword = document.getElementById("repeat_password").value;
+        
+                if (password !== repeatPassword) {
+                    alert("Las contraseñas no coinciden");
+                    return false;
+                }
+                return true;
+            }
+        
+            // Función para mostrar/ocultar la contraseña
+            function togglePasswordVisibility(inputId) {
+                var input = document.getElementById(inputId);
+                var checkbox = document.getElementById("show_" + inputId);
+        
+                if (checkbox.checked) {
+                    input.type = "text";
+                } else {
+                    input.type = "password";
+                }
+            }
+        </script>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+/* Estilos generales del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif; /* Fuente y tipo de letra utilizados para el cuerpo de la página */
+  background-image: url("../img/frutaFondo4k.jpeg"); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir */
+  background-size: cover; /* Tamaño de la imagen */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  display: flex; /* Usa un modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% de la altura de la ventana */
+}
+
+/* Estilos para el contenedor del formulario */
+.form-container {
+  background-color: #ffffff; /* Color de fondo del contenedor del formulario */
+  border-radius: 8px; /* Borde redondeado del contenedor del formulario */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Sombra del contenedor del formulario */
+  padding: 20px; /* Espaciado interno del contenedor del formulario */
+  width: 100%; /* Ancho del contenedor del formulario */
+  max-width: 400px; /* Ancho máximo del contenedor del formulario */
+  text-align: center; /* Alineación del texto al centro dentro del contenedor del formulario */
+}
+
+/* Estilos para el título del formulario */
+.form-container h2 {
+  margin-bottom: 20px; /* Margen inferior del título */
+  color: #333333; /* Color del texto del título */
+}
+
+/* Estilos para el grupo de formulario */
+.form-group {
+  margin-bottom: 20px; /* Margen inferior del grupo de formulario */
+  margin-right: 20px; /* Margen derecho del grupo de formulario */
+}
+
+/* Estilos para la etiqueta del formulario */
+.form-label {
+  display: block; /* Muestra la etiqueta del formulario como un bloque */
+  margin-bottom: 6px; /* Margen inferior de la etiqueta del formulario */
+  font-weight: bold; /* Peso de la fuente de la etiqueta del formulario */
+  color: #555555; /* Color del texto de la etiqueta del formulario */
+}
+
+/* Estilos para el campo de entrada del formulario */
+.form-input {
+  width: 100%; /* Ancho del campo de entrada del formulario */
+  padding: 10px; /* Espaciado interno del campo de entrada del formulario */
+  border: 1px solid #dddddd; /* Borde del campo de entrada del formulario */
+  border-radius: 4px; /* Borde redondeado del campo de entrada del formulario */
+  margin-bottom: 10px; /* Margen inferior del campo de entrada del formulario */
+}
+
+/* Estilos para el campo de entrada del formulario cuando está enfocado */
+.form-input:focus {
+  outline: none; /* Elimina el contorno al enfocar */
+  border-color: #007bff; /* Color del borde cuando el campo está enfocado */
+}
+
+/* Estilos para el botón del formulario */
+.form-button {
+  background-color: #007bff; /* Color de fondo del botón del formulario */
+  color: #ffffff; /* Color del texto del botón del formulario */
+  border: none; /* Elimina el borde del botón del formulario */
+  border-radius: 4px; /* Borde redondeado del botón del formulario */
+  padding: 10px 20px; /* Espaciado interno del botón del formulario */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón del formulario */
+}
+
+/* Estilos para el botón del formulario al pasar el ratón sobre él */
+.form-button:hover {
+  background-color: #0056b3; /* Color de fondo del botón del formulario al pasar el ratón sobre él */
+}
+
+/* Estilos adicionales para los campos de entrada y el botón del formulario */
+/* Estilos para el campo de texto y el menú desplegable */
+input[type=text], select {
+  width: 100%; /* Ancho del campo de texto y el menú desplegable */
+  padding: 12px 20px; /* Espaciado interno del campo de texto y el menú desplegable */
+  margin: 8px 0; /* Margen exterior del campo de texto y el menú desplegable */
+  display: inline-block; /* Muestra el campo de texto y el menú desplegable como un bloque en línea */
+  border: 1px solid #ccc; /* Borde del campo de texto y el menú desplegable */
+  border-radius: 4px; /* Borde redondeado del campo de texto y el menú desplegable */
+  box-sizing: border-box; /* La anchura y la altura incluyen el relleno y el borde, pero no los márgenes */
+}
+
+/* Estilos para el botón de envío */
+input[type=submit] {
+  width: 100%; /* Ancho del botón de envío */
+  background-color: #04AA6D; /* Color de fondo del botón de envío */
+  color: white; /* Color del texto del botón de envío */
+  padding: 14px 20px; /* Espaciado interno del botón de envío */
+  margin: 8px 0; /* Margen exterior del botón de envío */
+  border: none; /* Elimina el borde del botón de envío */
+  border-radius: 4px; /* Borde redondeado del botón de envío */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón de envío */
+}
+
+/* Estilos para el botón de envío al pasar el ratón sobre él */
+input[type=submit]:hover {
+  background-color: #45a049; /* Color de fondo del botón de envío al pasar el ratón sobre él */
+}
+
+/* Estilos específicos para diferentes navegadores */
+/* Elimina las flechas de incremento y decremento en los campos de número en Chrome, Safari, Edge y Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Elimina la apariencia predeterminada */
+  margin: 0; /* Elimina el margen */
+}
+
+/* Estilos adicionales para el campo de número en Firefox */
+input[type=number] {
+  appearance: textfield; /* Muestra el campo de número como un campo de texto en Firefox */
+}
