@@ -11,7 +11,7 @@
 <body>
     <div class="form-container">
         <h2>Sign up</h2>
-        <form action="welcome.php" method="post">
+        <form action="../signup.php" method="post">
             <div class="form-group">
                 <label for="first_name" class="form-label">Nombre:</label>
                 <input type="text" id="first_name" name="fname" class="form-input" required>
@@ -65,6 +65,7 @@
                 <input type="checkbox" id="prom_off" name="promo_off" class="form-input" value="1">
             </div>
             <button type="submit" name="submit" class="form-button" onclick="return validatePassword()">Enviar</button>
+            <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a>.</p> <!-- Enlace para iniciar sesión -->
         </form>
         <script>
             // Función para validar que las contraseñas coincidan

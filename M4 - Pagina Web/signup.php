@@ -19,9 +19,9 @@ if(isset($_POST['submit']))
 }
 
 // Detalles de la base de datos
-$host = "172.17.126.35";
+$host = "172.17.126.90";
 $username = "javaApp";
-$password = "javaAppsPass";
+$password = "javaAppPass";
 $dbname = "fruterias_perez";
 
 // Crear una conexión
