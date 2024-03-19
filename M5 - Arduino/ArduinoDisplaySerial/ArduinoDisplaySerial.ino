@@ -4,7 +4,7 @@
 const int BUFFER_SIZE = 150;
 char buf[BUFFER_SIZE];
 
-//Crear el objeto lcd  dirección  0x3F y 16 columnas x 2 filas
+//Crear el objeto lcd  dirección  0x27 y 16 columnas x 2 filas
 LiquidCrystal_I2C lcd(0x27,16,2);  //
 
 void setup() {
