@@ -21,8 +21,8 @@
 
 - Un servidor MySQL con las tablas que estan guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90 
 - Luego en la base de datos ejecutar las siguientes sentencias para agrgar el usuario que usa la aplicacion de java:
-		CREATE USER 'javaApp'@'%' IDENTIFIED BY 'javaAppPass';
-		GRANT ALL PRIVILEGES ON fruterias_perez . * TO 'javaApp'@'%';
+	CREATE USER 'javaApp'@'%' IDENTIFIED BY 'javaAppPass';
+	GRANT ALL PRIVILEGES ON fruterias_perez . * TO 'javaApp'@'%';
 
 ### M4 - Página web:
 
