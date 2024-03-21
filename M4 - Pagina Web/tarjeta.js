@@ -57,7 +57,7 @@ function finalizar(){
 	pagina.document.write();
 	pagina.document.write('Tiene el numero de orden: '+ ticket_id.toString().replace('.',''));
 	restoreCart();
-    pagina.document.write("<a href='https://www.youtube.com/embed/eh_xSyPsEVI?t=52'><p>Ver tu pedido</p></a");
+    pagina.document.write("<a href='https://www.youtube.com/embed/eh_xSyPsEVI?start=67'><p>Ver tu pedido</p></a");
 }
 
 /* --------------------------------------------------------- */
