@@ -23,6 +23,7 @@
 - Luego en la base de datos ejecutar las siguientes sentencias para agrgar el usuario que usa la aplicacion de java:
 	- CREATE USER 'javaApp'@'%' IDENTIFIED BY 'javaAppPass';
 	- GRANT ALL PRIVILEGES ON fruterias_perez . * TO 'javaApp'@'%';
+- En la ventana de iniciar sesion de la aplicacion de java usar cualquier usuario de tablas logins
 
 ### M4 - Página web:
 
