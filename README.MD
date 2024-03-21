@@ -19,7 +19,8 @@
 
 #### Requerimientos para ejecutar:
 
-- Un servidor MySQL con las tablas que estan guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90
+- Un servidor MySQL con las tablas que estan guardadas en `/M2-M10 - Base de datos` y con la IP: 172.17.126.90 
+- Luego en la base de datos ejecutar los siguientes :
 
 ### M4 - Página web:
 
