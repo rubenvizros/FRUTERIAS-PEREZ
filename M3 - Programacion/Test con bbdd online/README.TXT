@@ -1,3 +1,10 @@
+
+
+Este ejecutable esta conectado a un servicio de base de datos gratuito y deberia estar online 24/7
+esta destinado a que se pueda probar la funcionalidad de la aplicacion.
+
+
+
 ========================
 BUILD OUTPUT DESCRIPTION
 ========================
